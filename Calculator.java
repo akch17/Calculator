@@ -15,6 +15,10 @@ public class Calculator {
 				result = zahl1 - zahl2;
 
 			}
+			else if (Operator.equals("*")){
+				result = zahl1 * zahl2;
+
+			}
 			System.out.println(zahl1 + " " + Operator + " " + zahl2 + " = " + result);
 		}
 	}
